@@ -502,7 +502,7 @@
                         }],
                  "rotation":0,
                  "type":"area",
-                 "visible":true,
+                 "visible":false,
                  "width":96,
                  "x":384.549763904372,
                  "y":166.79593211081

@@ -50,7 +50,7 @@
                                 {
                                  "name":"exitUrl",
                                  "type":"string",
-                                 "value":"conference.tmj"
+                                 "value":"mapeditor.tmj"
                                 }],
                          "rotation":0,
                          "type":"area",
@@ -82,9 +82,261 @@
                          "rotation":0,
                          "type":"area",
                          "visible":true,
-                         "width":250.748364832872,
-                         "x":246.947554271498,
-                         "y":560.772039645279
+                         "width":183.964063037922,
+                         "x":658.556924517923,
+                         "y":153.251504202626
+                        }, 
+                        {
+                         "height":36.7995132339519,
+                         "id":24,
+                         "name":"websiteS3",
+                         "properties":[
+                                {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/s3invent.com"
+                                }, 
+                                {
+                                 "name":"openWebsiteTrigger",
+                                 "type":"string",
+                                 "value":"onaction"
+                                }],
+                         "rotation":0,
+                         "type":"area",
+                         "visible":true,
+                         "width":49.0660176452692,
+                         "x":363.906297535747,
+                         "y":636.495284453909
+                        }, 
+                        {
+                         "height":36.7995132339519,
+                         "id":30,
+                         "name":"youtube",
+                         "properties":[
+                                {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/www.youtube.com\/embed\/74-cHavcyAk?si=f9Ud8A_kGZnmFBG9"
+                                }, 
+                                {
+                                 "name":"openWebsiteTrigger",
+                                 "type":"string",
+                                 "value":"onaction"
+                                }],
+                         "rotation":0,
+                         "type":"area",
+                         "visible":true,
+                         "width":83.1396410100394,
+                         "x":441.594158807423,
+                         "y":530.185579555826
+                        }, 
+                        {
+                         "height":36.7995132339519,
+                         "id":28,
+                         "name":"whiteboard",
+                         "properties":[
+                                {
+                                 "name":"dynamic",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/app.eraser.io\/"
+                                }, 
+                                {
+                                 "name":"openWebsiteTrigger",
+                                 "type":"string",
+                                 "value":"onaction"
+                                }, 
+                                {
+                                 "name":"openWebsiteTriggerMessage",
+                                 "type":"string",
+                                 "value":"Press SPACE or touch here to open a Whiteboard"
+                                }],
+                         "rotation":0,
+                         "type":"area",
+                         "visible":true,
+                         "width":72.236081533313,
+                         "x":258.959537572254,
+                         "y":316.203224825068
+                        }, 
+                        {
+                         "height":105.045550654092,
+                         "id":29,
+                         "name":"silentZone",
+                         "properties":[
+                                {
+                                 "name":"focusable",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"silent",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"zoom_margin",
+                                 "type":"float",
+                                 "value":0.4
+                                }],
+                         "rotation":0,
+                         "type":"area",
+                         "visible":true,
+                         "width":250.748,
+                         "x":246.709967143292,
+                         "y":573.068949650137
+                        }, 
+                        {
+                         "height":267.659147550958,
+                         "id":31,
+                         "name":"zoomout",
+                         "properties":[
+                                {
+                                 "name":"focusable",
+                                 "type":"bool",
+                                 "value":false
+                                }, 
+                                {
+                                 "name":"zoom_margin",
+                                 "type":"float",
+                                 "value":1
+                                }],
+                         "rotation":0,
+                         "type":"area",
+                         "visible":true,
+                         "width":109.880570428963,
+                         "x":245.589072862793,
+                         "y":301.631332826285
+                        }, 
+                        {
+                         "height":36.7995,
+                         "id":32,
+                         "name":"slide",
+                         "properties":[
+                                {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/drive.google.com\/file\/d\/1kTX7z5-_c8Iv5QORQzFgknbslDxMHDxh\/preview"
+                                }],
+                         "rotation":0,
+                         "type":"area",
+                         "visible":true,
+                         "width":49.066,
+                         "x":900.906610587162,
+                         "y":316.88470390934
+                        }, 
+                        {
+                         "height":36.7995,
+                         "id":33,
+                         "name":"game",
+                         "properties":[
+                                {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/docs.google.com\/presentation\/d\/1XST1NQQ3rZ67zm9PidD-azRCZxzbDmFm\/edit#slide=id.p1"
+                                }],
+                         "rotation":0,
+                         "type":"area",
+                         "visible":true,
+                         "width":49.066,
+                         "x":907.721335260115,
+                         "y":387.757840508062
+                        }, 
+                        {
+                         "height":36.7995,
+                         "id":34,
+                         "name":"kahoot",
+                         "properties":[
+                                {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/s3invent.com"
+                                }, 
+                                {
+                                 "name":"openWebsiteTrigger",
+                                 "type":"string",
+                                 "value":"onaction"
+                                }],
+                         "rotation":0,
+                         "type":"area",
+                         "visible":true,
+                         "width":49.066,
+                         "x":911.810170063888,
+                         "y":454.542142303012
+                        }, 
+                        {
+                         "height":18.84375,
+                         "id":35,
+                         "name":"intro",
+                         "properties":[
+                                {
+                                 "name":"font-family",
+                                 "type":"string",
+                                 "value":"Press Start 2P"
+                                }],
+                         "rotation":0,
+                         "text":
+                            {
+                             "halign":"center",
+                             "pixelsize":8,
+                             "text":"USE \n\"W A S D\" \nor\n \"ARROW\"",
+                             "wrap":true
+                            },
+                         "type":"",
+                         "visible":true,
+                         "width":80.234375,
+                         "x":265.182477848342,
+                         "y":560.28910765896
+                        }, 
+                        {
+                         "height":18.8438,
+                         "id":38,
+                         "name":"kahoot",
+                         "properties":[
+                                {
+                                 "name":"font-family",
+                                 "type":"string",
+                                 "value":"Press Start 2P"
+                                }],
+                         "rotation":0,
+                         "text":
+                            {
+                             "pixelsize":8,
+                             "text":"USE \"W A S D\" or \"ARROW\"",
+                             "wrap":true
+                            },
+                         "type":"",
+                         "visible":true,
+                         "width":80.2344,
+                         "x":893.500080194706,
+                         "y":452.616432826285
+                        }, 
+                        {
+                         "height":18.8438,
+                         "id":39,
+                         "name":"presentation",
+                         "properties":[
+                                {
+                                 "name":"font-family",
+                                 "type":"string",
+                                 "value":"Press Start 2P"
+                                }],
+                         "rotation":0,
+                         "text":
+                            {
+                             "halign":"center",
+                             "pixelsize":8,
+                             "text":"Slide",
+                             "wrap":true
+                            },
+                         "type":"",
+                         "visible":true,
+                         "width":80.2344,
+                         "x":886.685355521752,
+                         "y":316.321939367204
                         }],
                  "opacity":1,
                  "properties":[
@@ -198,7 +450,7 @@
                     3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
                     0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
-                    0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":21,
                  "id":7,
                  "name":"collisionWalls",
@@ -536,9 +788,9 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 73, 74, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 85, 86, 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 97, 98, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 73, 74, 75, 142, 143, 144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 85, 86, 87, 152, 153, 154, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 97, 98, 99, 162, 163, 164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 1410, 0, 0, 0, 1411, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 1423, 0, 0, 0, 1424, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 1410, 0, 0, 0, 1411, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -641,7 +893,7 @@
          "y":0
         }],
  "nextlayerid":81,
- "nextobjectid":24,
+ "nextobjectid":41,
  "orientation":"orthogonal",
  "properties":[
         {
