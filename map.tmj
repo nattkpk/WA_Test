@@ -50,7 +50,7 @@
                                 {
                                  "name":"exitUrl",
                                  "type":"string",
-                                 "value":"mapeditor.tmj"
+                                 "value":"conference.tmj"
                                 }],
                          "rotation":0,
                          "type":"area",
